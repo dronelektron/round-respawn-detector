@@ -1,0 +1,25 @@
+"Games"
+{
+	"dod"
+	{
+		"Signatures"
+		{
+			"CDODGameRules::RoundRespawn"
+			{
+				"library"	"server"
+				"windows"	"\x56\x57\x8B\xF1\xE8\x67\xBF"
+				"linux"		"@_ZN13CDODGameRules12RoundRespawnEv"
+			}
+		}
+		"Functions"
+		{
+			"RoundRespawn"
+			{
+				"signature"	"CDODGameRules::RoundRespawn"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"ignore"
+			}
+		}
+	}
+}
